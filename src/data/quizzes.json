@@ -1,0 +1,54 @@
+{
+  "quizzes": [
+    {
+      "id": "fundamentals-1",
+      "title": "Grundlagen Aktien",
+      "description": "Teste dein Wissen über Aktien und Unternehmensbewertung",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single",
+          "question": "Was beschreibt das Kurs-Gewinn-Verhältnis (KGV)?",
+          "options": [
+            {"id":"a","text":"Verhältnis von Kurs zu Dividende"},
+            {"id":"b","text":"Verhältnis von Kurs zu Gewinn je Anteil"},
+            {"id":"c","text":"Verhältnis von Gewinn zu Umsatz"}
+          ],
+          "answer": "b",
+          "explanation": "Das KGV wird berechnet als Aktienkurs geteilt durch Gewinn pro Aktie und zeigt, wie viele Jahre es dauern würde, den Kaufpreis über den aktuellen Gewinn zurückzuverdienen."
+        },
+        {
+          "id": "q2",
+          "type": "single",
+          "question": "Was ist eine Dividende?",
+          "options": [
+            {"id":"a","text":"Ein Gewinnanteil, der an Aktionäre ausgeschüttet wird"},
+            {"id":"b","text":"Der Zinssatz einer Anleihe"},
+            {"id":"c","text":"Die Gebühr für den Aktienkauf"}
+          ],
+          "answer": "a",
+          "explanation": "Eine Dividende ist eine Gewinnausschüttung des Unternehmens an seine Aktionäre, meist einmal jährlich."
+        }
+      ]
+    },
+    {
+      "id": "etf-basics",
+      "title": "ETF Grundlagen",
+      "description": "Lerne die Basics von Exchange Traded Funds",
+      "questions": [
+        {
+          "id": "q1",
+          "type": "single",
+          "question": "Was bedeutet ETF?",
+          "options": [
+            {"id":"a","text":"European Trading Fund"},
+            {"id":"b","text":"Exchange Traded Fund"},
+            {"id":"c","text":"Electronic Transfer Fund"}
+          ],
+          "answer": "b",
+          "explanation": "ETF steht für Exchange Traded Fund - ein börsengehandelter Indexfonds."
+        }
+      ]
+    }
+  ]
+}

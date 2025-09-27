@@ -1,0 +1,102 @@
+[
+  {
+    "id": "acme-corp",
+    "type": "stock",
+    "ticker": "ACME",
+    "name": "ACME Corporation (fiktiv)",
+    "currency": "EUR",
+    "sector": "Industrials",
+    "description": "Fiktives Industrie-/Tech-Unternehmen zur Demonstration von Aktienanalyse und Portfolio-Management.",
+    "marketCap": 18500000000,
+    "peRatio": 18.5,
+    "priceHistory": [
+      {"date":"2024-09-01","open":119.50,"high":121.00,"low":117.80,"close":120.34,"volume":1200000},
+      {"date":"2024-10-01","open":121.00,"high":123.00,"low":120.00,"close":122.10,"volume":980000},
+      {"date":"2024-11-01","open":122.50,"high":124.00,"low":118.20,"close":118.50,"volume":1100000},
+      {"date":"2024-12-01","open":119.00,"high":127.00,"low":118.90,"close":125.20,"volume":1300000},
+      {"date":"2025-01-01","open":126.00,"high":128.50,"low":124.00,"close":128.00,"volume":900000},
+      {"date":"2025-02-01","open":128.50,"high":131.00,"low":127.80,"close":130.45,"volume":950000},
+      {"date":"2025-03-01","open":131.00,"high":133.00,"low":126.50,"close":127.90,"volume":870000},
+      {"date":"2025-04-01","open":128.00,"high":133.50,"low":127.50,"close":132.00,"volume":980000},
+      {"date":"2025-05-01","open":132.50,"high":136.00,"low":131.80,"close":135.75,"volume":1010000},
+      {"date":"2025-06-01","open":136.00,"high":141.00,"low":135.50,"close":140.10,"volume":1250000},
+      {"date":"2025-07-01","open":141.00,"high":143.00,"low":140.00,"close":142.50,"volume":860000},
+      {"date":"2025-08-01","open":142.50,"high":146.00,"low":141.50,"close":145.20,"volume":920000}
+    ]
+  },
+  {
+    "id": "globaltech-etf",
+    "type": "etf",
+    "ticker": "GTECH",
+    "name": "GlobalTech ETF (fiktiv)",
+    "currency": "USD",
+    "sector": "Technology",
+    "description": "Beispiel-ETF zur Darstellung von ETFs und diversifizierten Anlagen im Tech-Bereich.",
+    "aum": 4200000000,
+    "expenseRatio": 0.12,
+    "priceHistory": [
+      {"date":"2024-09-01","open":50.12,"high":50.80,"low":49.70,"close":50.34,"volume":450000},
+      {"date":"2024-10-01","open":50.40,"high":51.10,"low":49.80,"close":50.90,"volume":420000},
+      {"date":"2024-11-01","open":50.90,"high":51.50,"low":50.00,"close":50.20,"volume":480000},
+      {"date":"2024-12-01","open":50.50,"high":52.00,"low":50.30,"close":51.80,"volume":500000},
+      {"date":"2025-01-01","open":51.90,"high":52.30,"low":51.10,"close":51.60,"volume":390000},
+      {"date":"2025-02-01","open":51.70,"high":53.00,"low":51.50,"close":52.85,"volume":410000},
+      {"date":"2025-03-01","open":53.00,"high":54.00,"low":52.10,"close":52.50,"volume":400000},
+      {"date":"2025-04-01","open":52.60,"high":53.30,"low":51.80,"close":53.10,"volume":430000},
+      {"date":"2025-05-01","open":53.20,"high":54.20,"low":52.90,"close":53.95,"volume":470000},
+      {"date":"2025-06-01","open":54.00,"high":55.00,"low":53.50,"close":54.60,"volume":520000},
+      {"date":"2025-07-01","open":54.50,"high":55.20,"low":54.00,"close":54.95,"volume":380000},
+      {"date":"2025-08-01","open":55.00,"high":56.00,"low":54.80,"close":55.50,"volume":410000}
+    ]
+  },
+  {
+    "id": "euro-bond",
+    "type": "bond",
+    "ticker": "EUBOND",
+    "name": "Euro Government Bond (fiktiv)",
+    "currency": "EUR",
+    "sector": "Government",
+    "description": "Beispiel-Staatsanleihe zur Demonstration von Fixed Income Instrumenten.",
+    "maturity": "2030-12-31",
+    "coupon": 2.5,
+    "priceHistory": [
+      {"date":"2024-09-01","open":98.50,"high":99.00,"low":98.20,"close":98.75,"volume":25000},
+      {"date":"2024-10-01","open":98.80,"high":99.20,"low":98.50,"close":99.10,"volume":22000},
+      {"date":"2024-11-01","open":99.00,"high":99.50,"low":98.80,"close":99.25,"volume":28000},
+      {"date":"2024-12-01","open":99.30,"high":100.00,"low":99.00,"close":99.80,"volume":30000},
+      {"date":"2025-01-01","open":99.90,"high":100.50,"low":99.70,"close":100.25,"volume":26000},
+      {"date":"2025-02-01","open":100.30,"high":101.00,"low":100.00,"close":100.75,"volume":24000},
+      {"date":"2025-03-01","open":100.80,"high":101.20,"low":100.50,"close":100.90,"volume":23000},
+      {"date":"2025-04-01","open":101.00,"high":101.50,"low":100.70,"close":101.25,"volume":27000},
+      {"date":"2025-05-01","open":101.30,"high":102.00,"low":101.00,"close":101.80,"volume":29000},
+      {"date":"2025-06-01","open":101.90,"high":102.50,"low":101.60,"close":102.25,"volume":31000},
+      {"date":"2025-07-01","open":102.30,"high":103.00,"low":102.00,"close":102.75,"volume":25000},
+      {"date":"2025-08-01","open":102.80,"high":103.20,"low":102.50,"close":103.00,"volume":26000}
+    ]
+  },
+  {
+    "id": "bitcoin-demo",
+    "type": "crypto",
+    "ticker": "BTC-DEMO",
+    "name": "Bitcoin Demonstrator (fiktiv)",
+    "currency": "USD",
+    "sector": "Cryptocurrency",
+    "description": "Fiktive Bitcoin-Daten zur Demonstration von Kryptowährungs-Volatilität und -Analyse.",
+    "marketCap": 800000000000,
+    "circulatingSupply": 19500000,
+    "priceHistory": [
+      {"date":"2024-09-01","open":58500,"high":61000,"low":57000,"close":60250,"volume":15000},
+      {"date":"2024-10-01","open":60500,"high":68000,"low":59000,"close":67200,"volume":18000},
+      {"date":"2024-11-01","open":67000,"high":75000,"low":64000,"close":72500,"volume":22000},
+      {"date":"2024-12-01","open":72800,"high":78000,"low":70000,"close":75400,"volume":20000},
+      {"date":"2025-01-01","open":75600,"high":82000,"low":73000,"close":79800,"volume":25000},
+      {"date":"2025-02-01","open":80000,"high":88000,"low":78000,"close":85500,"volume":28000},
+      {"date":"2025-03-01","open":85200,"high":92000,"low":82000,"close":89750,"volume":24000},
+      {"date":"2025-04-01","open":90000,"high":95000,"low":87000,"close":93200,"volume":21000},
+      {"date":"2025-05-01","open":93500,"high":98000,"low":90000,"close":96400,"volume":19000},
+      {"date":"2025-06-01","open":96800,"high":102000,"low":94000,"close":99750,"volume":26000},
+      {"date":"2025-07-01","open":100000,"high":105000,"low":97000,"close":103500,"volume":30000},
+      {"date":"2025-08-01","open":103800,"high":108000,"low":101000,"close":106250,"volume":27000}
+    ]
+  }
+]
