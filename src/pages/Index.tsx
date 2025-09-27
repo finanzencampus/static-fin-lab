@@ -5,13 +5,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { TrendingUp, PieChart, Brain, BookOpen, Calculator, BarChart3 } from "lucide-react";
 import { Link } from "react-router-dom";
 import instrumentsData from "@/data/instruments.json";
-
 const Index = () => {
   // Take first few instruments for preview
   const featuredInstruments = instrumentsData.slice(0, 3);
-
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-background via-muted/30 to-background">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-16">
@@ -64,37 +61,22 @@ const Index = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-            <DashboardCard
-              title="Aktien verstehen"
-              description="Lerne Fundamentalanalyse, KGVs und Unternehmensbewertung mit praktischen Beispielen."
-              icon={TrendingUp}
-              action={{
-                label: "Instrumente ansehen",
-                onClick: () => window.location.href = "/instruments",
-                variant: "outline"
-              }}
-            />
+            <DashboardCard title="Aktien verstehen" description="Lerne Fundamentalanalyse, KGVs und Unternehmensbewertung mit praktischen Beispielen." icon={TrendingUp} action={{
+            label: "Instrumente ansehen",
+            onClick: () => window.location.href = "/instruments",
+            variant: "outline"
+          }} />
             
-            <DashboardCard
-              title="Portfolio-Simulator"
-              description="Baue virtuelle Portfolios und verstehe Diversifikation, Risiko und Rendite."
-              icon={PieChart}
-              action={{
-                label: "Portfolio erstellen",
-                onClick: () => window.location.href = "/portfolio"
-              }}
-            />
+            <DashboardCard title="Portfolio-Simulator" description="Baue virtuelle Portfolios und verstehe Diversifikation, Risiko und Rendite." icon={PieChart} action={{
+            label: "Portfolio erstellen",
+            onClick: () => window.location.href = "/portfolio"
+          }} />
             
-            <DashboardCard
-              title="Quiz: Grundlagen"
-              description="Teste dein Wissen mit interaktiven Quizzen und erhalte detaillierte Erklärungen."
-              icon={Brain}
-              action={{
-                label: "Quiz starten",
-                onClick: () => window.location.href = "/quiz",
-                variant: "secondary"
-              }}
-            />
+            <DashboardCard title="Quiz: Grundlagen" description="Teste dein Wissen mit interaktiven Quizzen und erhalte detaillierte Erklärungen." icon={Brain} action={{
+            label: "Quiz starten",
+            onClick: () => window.location.href = "/quiz",
+            variant: "secondary"
+          }} />
           </div>
         </div>
       </section>
@@ -119,9 +101,7 @@ const Index = () => {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {featuredInstruments.map((instrument) => (
-              <InstrumentCard key={instrument.id} instrument={instrument} />
-            ))}
+            {featuredInstruments.map(instrument => <InstrumentCard key={instrument.id} instrument={instrument} />)}
           </div>
         </div>
       </section>
@@ -156,30 +136,11 @@ const Index = () => {
                 </CardContent>
               </Card>
 
-              <Card className="group hover:shadow-lg transition-all duration-300">
-                <CardHeader>
-                  <CardTitle className="flex items-center gap-3">
-                    <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-accent/10 text-accent group-hover:bg-accent group-hover:text-accent-foreground transition-all duration-300">
-                      <Calculator className="h-5 w-5" />
-                    </div>
-                    Finanzrechner
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground mb-4">
-                    Berechne Renditen, Zinseszins und andere wichtige Kennzahlen interaktiv.
-                  </p>
-                  <Button variant="outline" className="w-full" disabled>
-                    Bald verfügbar
-                  </Button>
-                </CardContent>
-              </Card>
+              
             </div>
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
