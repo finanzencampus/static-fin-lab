@@ -29,6 +29,9 @@ const Index = () => {
               Lerne die Grundlagen von Aktien, ETFs und Anleihen mit interaktiven Beispielen — 
               komplett offline und ohne Live-Daten. Perfekt für Studierende, Lehrkräfte und Finanz-Einsteiger.
             </p>
+            
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Link to="/portfolio">
                 
               </Link>
               <Link to="/instruments">
@@ -60,12 +63,6 @@ const Index = () => {
             onClick: () => window.location.href = "/instruments",
             variant: "outline"
           }} />
-
-          <DashboardCard title="Portfolio-Simulator" description="Baue virtuelle Portfolios und verstehe Diversifikation, Risiko und Rendite." icon={PieChart} action={{
-            label: "Portfolio erstellen",
-            onClick: () => window.location.href = "/portfolio"
-          }} />
-           
             
             <DashboardCard title="Quiz: Grundlagen" description="Teste dein Wissen mit interaktiven Quizzen und erhalte detaillierte Erklärungen." icon={Brain} action={{
             label: "Quiz starten",
