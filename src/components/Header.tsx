@@ -60,6 +60,11 @@ export const Header = () => {
                 Glossar
               </Button>
             </Link>
+            <Link to="/calculator">
+              <Button variant="ghost" className="text-foreground hover:text-primary">
+                Rechner
+              </Button>
+            </Link>
           </nav>
 
           {/* Actions */}
@@ -120,6 +125,11 @@ export const Header = () => {
               <Link to="/glossary" onClick={() => setIsMobileMenuOpen(false)}>
                 <Button variant="ghost" className="w-full justify-start">
                   Glossar
+                </Button>
+              </Link>
+              <Link to="/calculator" onClick={() => setIsMobileMenuOpen(false)}>
+                <Button variant="ghost" className="w-full justify-start">
+                  Rechner
                 </Button>
               </Link>
               <div className="px-4 pt-2">

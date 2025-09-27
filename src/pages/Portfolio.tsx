@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
-import { PieChart, TrendingUp, Calculator, Download } from "lucide-react";
+import { PieChart } from "lucide-react";
+import { PortfolioBuilder } from "@/components/PortfolioBuilder";
 
 const Portfolio = () => {
   return (
@@ -20,52 +20,10 @@ const Portfolio = () => {
         </div>
       </div>
 
-      {/* Coming Soon */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        <Card className="lg:col-span-2">
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2">
-              <Calculator className="h-5 w-5" />
-              Portfolio-Builder
-            </CardTitle>
-          </CardHeader>
-          <CardContent className="text-center py-12">
-            <div className="flex flex-col items-center gap-4 max-w-md mx-auto">
-              <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
-                <PieChart className="h-8 w-8 text-primary" />
-              </div>
-              <div>
-                <h3 className="text-lg font-semibold text-foreground mb-2">
-                  Portfolio-Simulator in Entwicklung
-                </h3>
-                <p className="text-muted-foreground mb-6">
-                  Hier wirst du bald virtuelle Portfolios erstellen, Risiko-Rendite-Profile analysieren 
-                  und verschiedene Anlagestrategien testen können.
-                </p>
-                <div className="space-y-2 text-sm text-muted-foreground">
-                  <div className="flex items-center gap-2">
-                    <TrendingUp className="h-4 w-4" />
-                    CAGR & Volatilitäts-Berechnungen
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <PieChart className="h-4 w-4" />
-                    Asset-Allocation Visualisierung
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Download className="h-4 w-4" />
-                    Portfolio-Export als PDF/CSV
-                  </div>
-                </div>
-              </div>
-              <Button disabled className="mt-4">
-                Bald verfügbar
-              </Button>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
+      {/* Portfolio Builder */}
+      <PortfolioBuilder />
 
-      {/* Feature Preview */}
+      {/* Educational Info */}
       <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
         <Card>
           <CardHeader>
@@ -73,7 +31,8 @@ const Portfolio = () => {
           </CardHeader>
           <CardContent>
             <p className="text-sm text-muted-foreground">
-              Verfolge die Entwicklung deines virtuellen Portfolios über verschiedene Zeiträume.
+              Verfolge die Entwicklung deines virtuellen Portfolios über verschiedene Zeiträume 
+              und verstehe die wichtigsten Performance-Kennzahlen.
             </p>
           </CardContent>
         </Card>
@@ -84,7 +43,8 @@ const Portfolio = () => {
           </CardHeader>
           <CardContent>
             <p className="text-sm text-muted-foreground">
-              Verstehe Sharpe Ratio, Maximum Drawdown und Volatilitätskennzahlen.
+              Verstehe Sharpe Ratio, Maximum Drawdown und Volatilitätskennzahlen 
+              zur besseren Bewertung deiner Anlagestrategie.
             </p>
           </CardContent>
         </Card>
@@ -95,7 +55,8 @@ const Portfolio = () => {
           </CardHeader>
           <CardContent>
             <p className="text-sm text-muted-foreground">
-              Lerne wie verschiedene Anlageklassen das Gesamtrisiko reduzieren können.
+              Lerne wie verschiedene Anlageklassen das Gesamtrisiko reduzieren können 
+              und optimiere deine Asset-Allocation.
             </p>
           </CardContent>
         </Card>

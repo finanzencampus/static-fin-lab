@@ -78,23 +78,11 @@ const Instruments = () => {
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <Filter className="h-5 w-5" />
-            Filter & Suche
+            Filter
           </CardTitle>
         </CardHeader>
         <CardContent>
           <div className="flex flex-col lg:flex-row gap-4">
-            {/* Search */}
-            <div className="flex-1">
-              <div className="relative">
-                <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
-                <Input
-                  placeholder="Nach Name, Ticker oder Beschreibung suchen..."
-                  value={searchTerm}
-                  onChange={(e) => setSearchTerm(e.target.value)}
-                  className="pl-10"
-                />
-              </div>
-            </div>
 
             {/* Type Filter */}
             <div className="flex flex-wrap gap-2">

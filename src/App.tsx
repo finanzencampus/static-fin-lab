@@ -9,6 +9,7 @@ import Instruments from "./pages/Instruments";
 import Portfolio from "./pages/Portfolio";
 import Quiz from "./pages/Quiz";
 import Glossary from "./pages/Glossary";
+import Calculator from "./pages/Calculator";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -28,6 +29,7 @@ const App = () => (
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/quiz" element={<Quiz />} />
               <Route path="/glossary" element={<Glossary />} />
+              <Route path="/calculator" element={<Calculator />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
