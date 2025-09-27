@@ -60,6 +60,12 @@ const Index = () => {
             onClick: () => window.location.href = "/instruments",
             variant: "outline"
           }} />
+
+          <DashboardCard title="Portfolio-Simulator" description="Baue virtuelle Portfolios und verstehe Diversifikation, Risiko und Rendite." icon={PieChart} action={{
+            label: "Portfolio erstellen",
+            onClick: () => window.location.href = "/portfolio"
+          }} />
+           
             
             <DashboardCard title="Quiz: Grundlagen" description="Teste dein Wissen mit interaktiven Quizzen und erhalte detaillierte Erklärungen." icon={Brain} action={{
             label: "Quiz starten",
