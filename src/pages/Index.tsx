@@ -29,9 +29,6 @@ const Index = () => {
               Lerne die Grundlagen von Aktien, ETFs und Anleihen mit interaktiven Beispielen — 
               komplett offline und ohne Live-Daten. Perfekt für Studierende, Lehrkräfte und Finanz-Einsteiger.
             </p>
-            
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link to="/portfolio">
                 
               </Link>
               <Link to="/instruments">
