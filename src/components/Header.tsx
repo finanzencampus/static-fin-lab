@@ -84,11 +84,6 @@ export const Header = () => {
                   Instrumente
                 </Button>
               </Link>
-              <Link to="/portfolio" onClick={() => setIsMobileMenuOpen(false)}>
-                <Button variant="ghost" className="w-full justify-start">
-                  Portfolio
-                </Button>
-              </Link>
               <Link to="/quiz" onClick={() => setIsMobileMenuOpen(false)}>
                 <Button variant="ghost" className="w-full justify-start">
                   Quiz

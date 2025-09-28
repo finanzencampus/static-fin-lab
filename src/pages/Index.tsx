@@ -31,9 +31,6 @@ const Index = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Link to="/portfolio">
-                
-              </Link>
               <Link to="/instruments">
                 <Button variant="outline" size="lg" className="border-primary/20 hover:border-primary/40">
                   <BarChart3 className="mr-2 h-5 w-5" />

@@ -28,6 +28,102 @@
           ],
           "answer": "a",
           "explanation": "Eine Dividende ist eine Gewinnausschüttung des Unternehmens an seine Aktionäre, meist einmal jährlich."
+        },
+        {
+          "id": "q3",
+          "type": "single",
+          "question": "Was bedeutet das Kurs-Buchwert-Verhältnis (KBV)?",
+          "options": [
+            {"id":"a","text":"Verhältnis von Aktienkurs zum Buchwert pro Aktie"},
+            {"id":"b","text":"Verhältnis von Gewinn zu Umsatz"},
+            {"id":"c","text":"Verhältnis von Dividende zu Kurs"}
+          ],
+          "answer": "a",
+          "explanation": "Das KBV zeigt, wie hoch der Aktienkurs im Verhältnis zum Buchwert (Eigenkapital) pro Aktie ist. Ein niedriges KBV kann auf eine unterbewertete Aktie hinweisen."
+        },
+        {
+          "id": "q4",
+          "type": "single",
+          "question": "Was ist der Gewinn pro Aktie (EPS)?",
+          "options": [
+            {"id":"a","text":"Der Gesamtumsatz des Unternehmens"},
+            {"id":"b","text":"Der Gewinn des Unternehmens geteilt durch die Anzahl der Aktien"},
+            {"id":"c","text":"Der Aktienkurs am Jahresende"}
+          ],
+          "answer": "b",
+          "explanation": "EPS (Earnings Per Share) ist der Jahresgewinn eines Unternehmens geteilt durch die Anzahl der ausgegebenen Aktien."
+        },
+        {
+          "id": "q5",
+          "type": "single",
+          "question": "Was bedeutet Marktkapitalisierung?",
+          "options": [
+            {"id":"a","text":"Der Wert aller Schulden eines Unternehmens"},
+            {"id":"b","text":"Der Gesamtwert aller Aktien eines Unternehmens"},
+            {"id":"c","text":"Der jährliche Umsatz des Unternehmens"}
+          ],
+          "answer": "b",
+          "explanation": "Die Marktkapitalisierung ist der Gesamtwert aller ausgegebenen Aktien (Aktienkurs × Anzahl Aktien)."
+        },
+        {
+          "id": "q6",
+          "type": "single",
+          "question": "Was ist eine Dividendenrendite?",
+          "options": [
+            {"id":"a","text":"Die jährliche Dividende geteilt durch den Aktienkurs"},
+            {"id":"b","text":"Der Gewinn pro Aktie"},
+            {"id":"c","text":"Die Kurssteigerung einer Aktie"}
+          ],
+          "answer": "a",
+          "explanation": "Die Dividendenrendite zeigt, welcher Prozentsatz des Aktienkurses als Dividende ausgeschüttet wird."
+        },
+        {
+          "id": "q7",
+          "type": "single",
+          "question": "Was sind Blue-Chip-Aktien?",
+          "options": [
+            {"id":"a","text":"Neue, riskante Aktien"},
+            {"id":"b","text":"Aktien großer, etablierter Unternehmen mit stabiler Performance"},
+            {"id":"c","text":"Ausländische Aktien"}
+          ],
+          "answer": "b",
+          "explanation": "Blue-Chip-Aktien sind Aktien großer, finanziell stabiler Unternehmen mit langer Geschichte und zuverlässiger Performance."
+        },
+        {
+          "id": "q8",
+          "type": "single",
+          "question": "Was ist der Unterschied zwischen Stamm- und Vorzugsaktien?",
+          "options": [
+            {"id":"a","text":"Stammaktien haben Stimmrechte, Vorzugsaktien oft höhere Dividenden"},
+            {"id":"b","text":"Vorzugsaktien sind immer teurer"},
+            {"id":"c","text":"Es gibt keinen Unterschied"}
+          ],
+          "answer": "a",
+          "explanation": "Stammaktien verleihen Stimmrechte bei Hauptversammlungen, während Vorzugsaktien oft bevorzugte Dividendenausschüttungen haben."
+        },
+        {
+          "id": "q9",
+          "type": "single",
+          "question": "Was bedeutet Beta bei Aktien?",
+          "options": [
+            {"id":"a","text":"Die Volatilität einer Aktie im Verhältnis zum Gesamtmarkt"},
+            {"id":"b","text":"Der Gewinn pro Aktie"},
+            {"id":"c","text":"Die Dividendenrendite"}
+          ],
+          "answer": "a",
+          "explanation": "Beta misst, wie stark sich eine Aktie im Verhältnis zu Marktbewegungen bewegt. Beta > 1 bedeutet höhere Volatilität als der Markt."
+        },
+        {
+          "id": "q10",
+          "type": "single",
+          "question": "Was ist ein Aktiensplit?",
+          "options": [
+            {"id":"a","text":"Der Verkauf von Aktien"},
+            {"id":"b","text":"Die Aufteilung bestehender Aktien in mehr Aktien zu niedrigerem Preis"},
+            {"id":"c","text":"Die Fusion zweier Unternehmen"}
+          ],
+          "answer": "b",
+          "explanation": "Bei einem Aktiensplit werden bestehende Aktien in mehrere neue Aktien aufgeteilt, wodurch der Preis pro Aktie sinkt, aber der Gesamtwert gleich bleibt."
         }
       ]
     },
@@ -47,6 +143,114 @@
           ],
           "answer": "b",
           "explanation": "ETF steht für Exchange Traded Fund - ein börsengehandelter Indexfonds."
+        },
+        {
+          "id": "q2",
+          "type": "single",
+          "question": "Was ist der Hauptvorteil von ETFs?",
+          "options": [
+            {"id":"a","text":"Hohe Kosten"},
+            {"id":"b","text":"Breite Diversifikation zu geringen Kosten"},
+            {"id":"c","text":"Garantierte Gewinne"}
+          ],
+          "answer": "b",
+          "explanation": "ETFs bieten eine breite Streuung über viele Wertpapiere hinweg bei sehr niedrigen Verwaltungskosten."
+        },
+        {
+          "id": "q3",
+          "type": "single",
+          "question": "Was ist die TER bei ETFs?",
+          "options": [
+            {"id":"a","text":"Total Expense Ratio - die jährlichen Gesamtkosten"},
+            {"id":"b","text":"Total Equity Return - die Gesamtrendite"},
+            {"id":"c","text":"Tax Efficiency Ratio - die Steuereffizienz"}
+          ],
+          "answer": "a",
+          "explanation": "TER steht für Total Expense Ratio und gibt die jährlichen Verwaltungskosten des ETFs in Prozent an."
+        },
+        {
+          "id": "q4",
+          "type": "single",
+          "question": "Wie werden ETFs gehandelt?",
+          "options": [
+            {"id":"a","text":"Nur über die Fondsgesellschaft"},
+            {"id":"b","text":"An der Börse wie normale Aktien"},
+            {"id":"c","text":"Nur einmal pro Monat"}
+          ],
+          "answer": "b",
+          "explanation": "ETFs werden kontinuierlich an der Börse gehandelt und können wie Aktien jederzeit während der Handelszeiten gekauft und verkauft werden."
+        },
+        {
+          "id": "q5",
+          "type": "single",
+          "question": "Was ist ein thesaurierender ETF?",
+          "options": [
+            {"id":"a","text":"Ein ETF, der Dividenden automatisch reinvestiert"},
+            {"id":"b","text":"Ein ETF, der Dividenden ausschüttet"},
+            {"id":"c","text":"Ein ETF ohne Dividenden"}
+          ],
+          "answer": "a",
+          "explanation": "Thesaurierende ETFs reinvestieren erhaltene Dividenden automatisch, wodurch der Zinseszinseffekt genutzt wird."
+        },
+        {
+          "id": "q6",
+          "type": "single",
+          "question": "Was ist der Tracking Error?",
+          "options": [
+            {"id":"a","text":"Die Abweichung der ETF-Performance von seinem Index"},
+            {"id":"b","text":"Die Handelsgebühren des ETFs"},
+            {"id":"c","text":"Die Dividendenrendite des ETFs"}
+          ],
+          "answer": "a",
+          "explanation": "Der Tracking Error misst, wie genau ein ETF seinem zugrunde liegenden Index folgt. Ein niedriger Tracking Error ist erwünscht."
+        },
+        {
+          "id": "q7",
+          "type": "single",
+          "question": "Was sind UCITS-ETFs?",
+          "options": [
+            {"id":"a","text":"ETFs, die EU-reguliert und für Privatanleger geeignet sind"},
+            {"id":"b","text":"ETFs nur für institutionelle Anleger"},
+            {"id":"c","text":"ETFs ohne Regulierung"}
+          ],
+          "answer": "a",
+          "explanation": "UCITS (Undertakings for Collective Investment in Transferable Securities) sind EU-regulierte Fonds, die hohe Anlegerschutzstandards erfüllen."
+        },
+        {
+          "id": "q8",
+          "type": "single",
+          "question": "Was ist Replikation bei ETFs?",
+          "options": [
+            {"id":"a","text":"Die Art, wie der ETF seinen Index nachbildet"},
+            {"id":"b","text":"Die Ausschüttung von Dividenden"},
+            {"id":"c","text":"Der Handel mit dem ETF"}
+          ],
+          "answer": "a",
+          "explanation": "Replikation beschreibt, wie ein ETF seinen Index nachbildet - entweder physisch (direkter Kauf der Aktien) oder synthetisch (über Derivate)."
+        },
+        {
+          "id": "q9",
+          "type": "single",
+          "question": "Was ist das Fondsvermögen (AUM) bei ETFs?",
+          "options": [
+            {"id":"a","text":"Die jährlichen Kosten"},
+            {"id":"b","text":"Das gesamte verwaltete Vermögen des ETFs"},
+            {"id":"c","text":"Die Anzahl der Aktien im ETF"}
+          ],
+          "answer": "b",
+          "explanation": "AUM (Assets Under Management) ist das gesamte Vermögen, das in einem ETF angelegt ist. Größere ETFs sind oft liquider und stabiler."
+        },
+        {
+          "id": "q10",
+          "type": "single",
+          "question": "Was ist der NAV bei ETFs?",
+          "options": [
+            {"id":"a","text":"Net Asset Value - der innere Wert pro Anteil"},
+            {"id":"b","text":"New Asset Volume - das neue Fondsvolumen"},
+            {"id":"c","text":"No Additional Volatility - die reduzierte Volatilität"}
+          ],
+          "answer": "a",
+          "explanation": "NAV ist der Nettoinventarwert und zeigt den tatsächlichen Wert eines ETF-Anteils basierend auf den gehaltenen Wertpapieren."
         }
       ]
     }
