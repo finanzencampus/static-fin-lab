@@ -20,9 +20,7 @@ const Index = () => {
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
               Börse verstehen —{" "}
-              <span className="bg-gradient-to-r from-primary via-info to-secondary bg-clip-text text-transparent">
-                simulieren, üben, erklären
-              </span>
+              <span className="bg-gradient-to-r from-primary via-info to-secondary bg-clip-text text-transparent">verstehen, üben, erklären</span>
             </h1>
             
             <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
