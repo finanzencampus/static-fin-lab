@@ -52,7 +52,7 @@ export const CompoundInterestCalculator = () => {
       {/* Input Form */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div className="space-y-2">
-          <Label htmlFor="principal">Startkapital (€)</Label>
+          <Label htmlFor="principal" className="text-sm font-semibold">Startkapital (€)</Label>
           <Input
             id="principal"
             type="number"
@@ -61,11 +61,13 @@ export const CompoundInterestCalculator = () => {
             placeholder="10000"
             min="0"
             step="100"
+            className="h-11"
           />
+          <p className="text-xs text-muted-foreground">Deine anfängliche Investition</p>
         </div>
 
         <div className="space-y-2">
-          <Label htmlFor="monthly">Monatliche Einzahlung (€)</Label>
+          <Label htmlFor="monthly" className="text-sm font-semibold">Monatliche Einzahlung (€)</Label>
           <Input
             id="monthly"
             type="number"
@@ -74,11 +76,13 @@ export const CompoundInterestCalculator = () => {
             placeholder="500"
             min="0"
             step="50"
+            className="h-11"
           />
+          <p className="text-xs text-muted-foreground">Regelmäßiger Sparbetrag</p>
         </div>
 
         <div className="space-y-2">
-          <Label htmlFor="rate">Jährlicher Zinssatz (%)</Label>
+          <Label htmlFor="rate" className="text-sm font-semibold">Jährlicher Zinssatz (%)</Label>
           <Input
             id="rate"
             type="number"
@@ -88,11 +92,13 @@ export const CompoundInterestCalculator = () => {
             min="0"
             max="50"
             step="0.1"
+            className="h-11"
           />
+          <p className="text-xs text-muted-foreground">Erwartete durchschnittliche Rendite</p>
         </div>
 
         <div className="space-y-2">
-          <Label htmlFor="years">Laufzeit (Jahre)</Label>
+          <Label htmlFor="years" className="text-sm font-semibold">Laufzeit (Jahre)</Label>
           <Input
             id="years"
             type="number"
@@ -102,16 +108,18 @@ export const CompoundInterestCalculator = () => {
             min="1"
             max="50"
             step="1"
+            className="h-11"
           />
+          <p className="text-xs text-muted-foreground">Zeitraum der Investition</p>
         </div>
       </div>
 
       {/* Action Buttons */}
       <div className="flex gap-2">
-        <Button onClick={handleCalculate} className="flex-1">
+        <Button onClick={handleCalculate} className="flex-1 h-11 font-semibold">
           Berechnen
         </Button>
-        <Button onClick={handleReset} variant="outline">
+        <Button onClick={handleReset} variant="outline" className="h-11">
           Zurücksetzen
         </Button>
       </div>

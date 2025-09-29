@@ -38,6 +38,132 @@ const Glossary = () => {
       term: "Diversifikation",
       definition: "Diversifikation bedeutet die Verteilung von Investments auf verschiedene Anlageklassen, Branchen oder Regionen zur Risikoreduktion.",
       category: "Portfolio"
+    },
+    {
+      id: "marktkapitalisierung",
+      term: "Marktkapitalisierung",
+      definition: "Die Marktkapitalisierung ergibt sich aus dem Aktienkurs multipliziert mit der Anzahl aller Aktien. Sie zeigt den Börsenwert eines Unternehmens.",
+      category: "Aktienanalyse"
+    },
+    {
+      id: "liquiditat",
+      term: "Liquidität",
+      definition: "Liquidität beschreibt, wie schnell ein Vermögenswert zu einem fairen Preis in Bargeld umgewandelt werden kann. Aktien großer Unternehmen haben typischerweise hohe Liquidität.",
+      category: "Trading"
+    },
+    {
+      id: "rendite",
+      term: "Rendite",
+      definition: "Die Rendite ist der Ertrag einer Geldanlage in Prozent des eingesetzten Kapitals. Sie umfasst Kursgewinne und Ausschüttungen wie Dividenden oder Zinsen.",
+      category: "Portfolio"
+    },
+    {
+      id: "spread",
+      term: "Spread (Geld-Brief-Spanne)",
+      definition: "Der Spread ist die Differenz zwischen Kauf- und Verkaufspreis eines Wertpapiers. Ein enger Spread deutet auf hohe Liquidität hin.",
+      category: "Trading"
+    },
+    {
+      id: "ter",
+      term: "TER (Total Expense Ratio)",
+      definition: "Die TER gibt die Gesamtkostenquote eines Fonds in Prozent an. Sie umfasst Verwaltungsgebühren und weitere laufende Kosten, die die Rendite mindern.",
+      category: "Fonds"
+    },
+    {
+      id: "zinseszins",
+      term: "Zinseszinseffekt",
+      definition: "Der Zinseszinseffekt beschreibt, wie Zinsen oder Erträge reinvestiert werden und selbst wieder Erträge generieren. Dies führt zu exponentiell wachsendem Vermögen.",
+      category: "Grundlagen"
+    },
+    {
+      id: "anleihe",
+      term: "Anleihe (Bond)",
+      definition: "Eine Anleihe ist ein festverzinsliches Wertpapier, bei dem der Anleger einem Emittenten Geld leiht. Der Emittent zahlt regelmäßige Zinsen und am Ende die Rückzahlung.",
+      category: "Anleihen"
+    },
+    {
+      id: "kupon",
+      term: "Kupon (Coupon)",
+      definition: "Der Kupon ist der jährliche Zinssatz einer Anleihe in Prozent des Nennwerts. Ein Kupon von 3% bedeutet 30€ Zinsen pro Jahr bei 1.000€ Nennwert.",
+      category: "Anleihen"
+    },
+    {
+      id: "kurs-buchwert",
+      term: "Kurs-Buchwert-Verhältnis (KBV)",
+      definition: "Das KBV setzt den Aktienkurs ins Verhältnis zum Buchwert pro Aktie. Ein niedriges KBV kann auf eine Unterbewertung hindeuten.",
+      category: "Aktienanalyse"
+    },
+    {
+      id: "sharpe-ratio",
+      term: "Sharpe Ratio",
+      definition: "Die Sharpe Ratio misst das Verhältnis von Rendite zu Risiko eines Investments. Ein höherer Wert bedeutet bessere risikobereinigte Performance.",
+      category: "Risiko"
+    },
+    {
+      id: "drawdown",
+      term: "Drawdown",
+      definition: "Der Drawdown zeigt den maximalen Wertverlust vom höchsten zum niedrigsten Punkt eines Investments. Er ist ein wichtiges Risikomaß.",
+      category: "Risiko"
+    },
+    {
+      id: "blue-chip",
+      term: "Blue Chip",
+      definition: "Blue Chips sind Aktien großer, etablierter Unternehmen mit stabilen Gewinnen und hoher Marktkapitalisierung. Sie gelten als relativ sicher.",
+      category: "Aktien"
+    },
+    {
+      id: "rebalancing",
+      term: "Rebalancing",
+      definition: "Rebalancing bedeutet die regelmäßige Anpassung eines Portfolios zur ursprünglichen Gewichtung. So wird verhindert, dass einzelne Positionen zu dominant werden.",
+      category: "Portfolio"
+    },
+    {
+      id: "depot",
+      term: "Depot (Wertpapierdepot)",
+      definition: "Ein Depot ist ein Konto zur Verwahrung von Wertpapieren wie Aktien, ETFs oder Anleihen. Es wird bei einer Bank oder einem Broker geführt.",
+      category: "Grundlagen"
+    },
+    {
+      id: "order",
+      term: "Order (Wertpapierorder)",
+      definition: "Eine Order ist ein Auftrag zum Kauf oder Verkauf von Wertpapieren. Es gibt verschiedene Orderarten wie Market-Order, Limit-Order oder Stop-Loss.",
+      category: "Trading"
+    },
+    {
+      id: "index",
+      term: "Index (Aktienindex)",
+      definition: "Ein Index bildet die Wertentwicklung einer Gruppe von Wertpapieren ab, z.B. DAX oder S&P 500. Er dient als Marktbarometer und Benchmark.",
+      category: "Grundlagen"
+    },
+    {
+      id: "eps",
+      term: "EPS (Earnings Per Share)",
+      definition: "Der Gewinn je Aktie zeigt, wie viel Gewinn ein Unternehmen pro ausstehender Aktie erwirtschaftet. Er ist wichtig für die Bewertung von Aktien.",
+      category: "Aktienanalyse"
+    },
+    {
+      id: "ausschuettend",
+      term: "Ausschüttender Fonds",
+      definition: "Ein ausschüttender Fonds zahlt Erträge wie Dividenden oder Zinsen direkt an die Anleger aus. Im Gegensatz dazu reinvestiert ein thesaurierender Fonds die Erträge.",
+      category: "Fonds"
+    },
+    {
+      id: "emittent",
+      term: "Emittent",
+      definition: "Der Emittent ist der Herausgeber von Wertpapieren, z.B. ein Unternehmen bei Aktien oder ein Staat bei Staatsanleihen. Er erhält das Kapital aus der Emission.",
+      category: "Grundlagen"
+    },
+    {
+      id: "bonitaet",
+      term: "Bonität (Credit Rating)",
+      definition: "Die Bonität bewertet die Kreditwürdigkeit eines Emittenten durch Rating-Agenturen. AAA ist die beste, D die schlechteste Bewertung.",
+      category: "Anleihen"
+    },
+    {
+      id: "zinsaenderungsrisiko",
+      term: "Zinsänderungsrisiko",
+      definition: "Das Zinsänderungsrisiko betrifft besonders Anleihen: Steigen die Marktzinsen, fallen die Kurse bestehender Anleihen und umgekehrt.",
+      category: "Risiko"
     }
   ];
 
