@@ -30,15 +30,15 @@ export const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary via-info to-secondary group-hover:shadow-glow transition-all duration-300">
-              <TrendingUp className="h-5 w-5 text-white" />
+          <Link to="/" className="flex items-center space-x-3 group">
+            <div className="relative flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-primary via-info to-secondary group-hover:shadow-glow transition-all duration-300 group-hover:scale-105">
+              <TrendingUp className="h-6 w-6 text-white" strokeWidth={2.5} />
+              <div className="absolute -top-1 -right-1 h-3 w-3 rounded-full bg-accent animate-pulse" />
             </div>
-            <div className="hidden sm:block">
-              <h1 className="text-xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+            <div>
+              <h1 className="text-2xl font-bold bg-gradient-to-r from-primary via-info to-secondary bg-clip-text text-transparent">
                 FinLearn
               </h1>
-              <p className="text-xs text-muted-foreground">Demo Platform</p>
             </div>
           </Link>
 
