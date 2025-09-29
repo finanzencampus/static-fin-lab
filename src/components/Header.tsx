@@ -8,7 +8,6 @@ export const Header = () => {
     return savedMode === "true";
   });
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  
   useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add("dark");
@@ -16,7 +15,6 @@ export const Header = () => {
       document.documentElement.classList.remove("dark");
     }
   }, []);
-  
   const toggleDarkMode = () => {
     const newMode = !isDarkMode;
     setIsDarkMode(newMode);
@@ -33,7 +31,7 @@ export const Header = () => {
           <Link to="/" className="flex items-center space-x-3 group">
             <div className="relative flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-to-br from-primary via-info to-secondary group-hover:shadow-glow transition-all duration-300 group-hover:scale-105">
               <TrendingUp className="h-6 w-6 text-white" strokeWidth={2.5} />
-              <div className="absolute -top-1 -right-1 h-3 w-3 rounded-full bg-accent animate-pulse" />
+              
             </div>
             <div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-primary via-info to-secondary bg-clip-text text-transparent">
