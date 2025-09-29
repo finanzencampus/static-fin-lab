@@ -3,10 +3,8 @@ import { Calculator as CalculatorIcon, TrendingUp, Percent, Info } from "lucide-
 import { CompoundInterestCalculator } from "@/components/CompoundInterestCalculator";
 import { ReturnsCalculator } from "@/components/ReturnsCalculator";
 import { Alert, AlertDescription } from "@/components/ui/alert";
-
 const Calculator = () => {
-  return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+  return <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
       {/* Header */}
       <div className="mb-8">
         <div className="flex items-center gap-3 mb-4">
@@ -21,12 +19,7 @@ const Calculator = () => {
           </div>
         </div>
         
-        <Alert className="mt-4">
-          <Info className="h-4 w-4" />
-          <AlertDescription>
-            Diese Rechner helfen dir, fundierte Finanzentscheidungen zu treffen. Nutze sie zur Planung deiner Investments und zum Verständnis deiner Portfolio-Performance.
-          </AlertDescription>
-        </Alert>
+        
       </div>
 
       {/* Calculator Grid */}
@@ -122,8 +115,6 @@ const Calculator = () => {
           </CardContent>
         </Card>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default Calculator;
